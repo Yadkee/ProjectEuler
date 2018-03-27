@@ -7,14 +7,12 @@ with open(join("files", "readme_preset.txt"), "rb") as f:
 with open(join("files", "index.txt")) as f:
     index = f.read().splitlines()
 text = []
-for i, j in zip(range(1, 1000, 25), range(25, 1000, 25)):
-    segment = "problems[%d-%d]" % (i, j)
-    problemPath = join(".", segment)
-    githubPath = "/%s/" % segment
-    try:
-        problems = tuple(sorted(listdir(path=problemPath), reverse=False))
-    except FileNotFoundError:
-        break
+problemFolders = sorted((i for i in listdir(path=".")
+                         if i.startswith("problems[")), reverse=False)
+for folder in problemFolders:
+    problemPath = join(".", folder)
+    githubPath = "/%s/" % folder
+    problems = sorted(listdir(path=problemPath), reverse=False)
     for path in problems:
         n = int(path.strip(".py")[-3:])
         text.append("- [%s](%s%s)" % (index[n], githubPath, path))
