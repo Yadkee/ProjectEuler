@@ -50,7 +50,7 @@
 
 [19	Counting Sundays	](/problems[001-025]/problem019.py)
 
-.
+[20	Factorial digit sum	](/problems[001-025]/problem020.py)
 
 .
 
