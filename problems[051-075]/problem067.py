@@ -6,7 +6,5 @@ from os.path import join
 with open(join("..", "files", "p067_triangle.txt")) as f:
     triangle = f.read()
 
-with open(join("..", "problems[1-25]", "problem018.py")) as f:
+with open(join("..", "problems[001-025]", "problem018.py")) as f:
     exec(f.read().split("\n\n\n")[1])
-
-print(solve(triangle))

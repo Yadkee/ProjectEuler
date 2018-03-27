@@ -25,6 +25,5 @@ def solve(triangle):
             matrix[y][x] += max(matrix[y + 1][x], matrix[y + 1][x + 1])
     return matrix[0][0]
 
-
-# Also using this code for problem 67, respect the 2 blank lines
+# Also using this code for problem 67
 print(solve(triangle))
