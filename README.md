@@ -168,7 +168,7 @@
 
 .
 
-.
+[79	Passcode derivation	](/problems[076-100]/problem079.py)
 
 .
 
