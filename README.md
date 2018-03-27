@@ -12,91 +12,41 @@
   </tr>
 <tr><td>
 
-[1	Multiples of 3 and 5	](/problems[1-25]/problem001.py)
+[1	Multiples of 3 and 5	](/problems[001-025]/problem001.py)
 
-[2	Even Fibonacci numbers	](/problems[1-25]/problem002.py)
+[2	Even Fibonacci numbers	](/problems[001-025]/problem002.py)
 
-[3	Largest prime factor	](/problems[1-25]/problem003.py)
+[3	Largest prime factor	](/problems[001-025]/problem003.py)
 
-[4	Largest palindrome product	](/problems[1-25]/problem004.py)
+[4	Largest palindrome product	](/problems[001-025]/problem004.py)
 
-[5	Smallest multiple	](/problems[1-25]/problem005.py)
+[5	Smallest multiple	](/problems[001-025]/problem005.py)
 
-[6	Sum square difference	](/problems[1-25]/problem006.py)
+[6	Sum square difference	](/problems[001-025]/problem006.py)
 
-[7	10001st prime	](/problems[1-25]/problem007.py)
+[7	10001st prime	](/problems[001-025]/problem007.py)
 
-[8	Largest product in a series	](/problems[1-25]/problem008.py)
+[8	Largest product in a series	](/problems[001-025]/problem008.py)
 
-[9	Special Pythagorean triplet	](/problems[1-25]/problem009.py)
+[9	Special Pythagorean triplet	](/problems[001-025]/problem009.py)
 
-[10	Summation of primes	](/problems[1-25]/problem010.py)
+[10	Summation of primes	](/problems[001-025]/problem010.py)
 
-[11	Largest product in a grid	](/problems[1-25]/problem011.py)
+[11	Largest product in a grid	](/problems[001-025]/problem011.py)
 
-[12	Highly divisible triangular number	](/problems[1-25]/problem012.py)
+[12	Highly divisible triangular number	](/problems[001-025]/problem012.py)
 
-[13	Large sum	](/problems[1-25]/problem013.py)
+[13	Large sum	](/problems[001-025]/problem013.py)
 
-[14	Longest Collatz sequence	](/problems[1-25]/problem014.py)
+[14	Longest Collatz sequence	](/problems[001-025]/problem014.py)
 
-[15	Lattice paths	](/problems[1-25]/problem015.py)
+[15	Lattice paths	](/problems[001-025]/problem015.py)
 
-[16	Power digit sum	](/problems[1-25]/problem016.py)
+[16	Power digit sum	](/problems[001-025]/problem016.py)
 
-[17	Number letter counts	](/problems[1-25]/problem017.py)
+[17	Number letter counts	](/problems[001-025]/problem017.py)
 
-[18	Maximum path sum I	](/problems[1-25]/problem018.py)
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.</td><td>
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
+[18	Maximum path sum I	](/problems[001-025]/problem018.py)
 
 .
 
@@ -144,7 +94,57 @@
 
 .
 
-[67	Maximum path sum II	](/problems[51-75]/problem067.py)
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.</td><td>
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+[67	Maximum path sum II	](/problems[051-075]/problem067.py)
 
 .
 
