@@ -48,7 +48,7 @@
 
 [18	Maximum path sum I	](/problems[001-025]/problem018.py)
 
-.
+[19	Counting Sundays	](/problems[001-025]/problem019.py)
 
 .
 
