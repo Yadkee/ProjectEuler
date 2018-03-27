@@ -34,4 +34,4 @@ def html_table(l):
 
 with open("README.md", "wb") as f:
     f.write(preset % ("\n".join(html_table(html_list(item) for item in row)
-                                for row in cells if row != cells[-1])).encode())
+                      for row in cells if row != cells[-1])).encode())
