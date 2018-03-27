@@ -5,10 +5,10 @@
 
 <table>
   <tr>
-    <th>1 to 25</th>
-    <th>26 to 50</th>
-    <th>51 to 75</th>
-    <th>76 to 100</th>
+    <th width=25%>1 to 25</th>
+    <th width=25%>26 to 50</th>
+    <th width=25%>51 to 75</th>
+    <th width=25%>76 to 100</th>
   </tr>
 <tr><td>
 
