@@ -52,7 +52,7 @@
 
 [20	Factorial digit sum	](/problems[001-025]/problem020.py)
 
-.
+[21	Amicable numbers	](/problems[001-025]/problem021.py)
 
 .
 
