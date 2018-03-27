@@ -62,7 +62,7 @@
 
 .</td><td>
 
-.
+[26	Reciprocal cycles	](/problems[26-50]/problem026.py)
 
 .
 
@@ -162,7 +162,7 @@
 
 .</td><td>
 
-.
+[76	Counting summations	](/problems[76-100]/problem0076.py)
 
 .
 
