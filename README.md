@@ -58,7 +58,7 @@
 
 [23	Non-abundant sums	](/problems[001-025]/problem023.py)
 
-.
+[24	Lexicographic permutations	](/problems[001-025]/problem024.py)
 
 .</td><td>
 
