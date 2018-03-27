@@ -62,7 +62,7 @@
 
 [25	1000-digit Fibonacci number	](/problems[001-025]/problem025.py)</td><td>
 
-.
+[26	Reciprocal cycles	](/problems[026-050]/problem026.py)
 
 .
 
