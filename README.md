@@ -60,7 +60,7 @@
 
 [24	Lexicographic permutations	](/problems[001-025]/problem024.py)
 
-.</td><td>
+[25	1000-digit Fibonacci number	](/problems[001-025]/problem025.py)</td><td>
 
 .
 
