@@ -3,6 +3,8 @@
 
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
+1 to 25 | 26 to 50 | 51 to 75 | 76 to 100
+--------|----------|----------|----------
 %s
 
 ### Disclaimer
