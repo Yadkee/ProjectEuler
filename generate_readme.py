@@ -10,7 +10,7 @@ text = []
 for i, j in zip(range(1, 1000, 25), range(25, 1000, 25)):
     segment = "problems[%d-%d]" % (i, j)
     problemPath = join(".", segment)
-    githubPath = "/%s/problem" % segment
+    githubPath = "/%s/" % segment
     try:
         problems = tuple(sorted(listdir(path=problemPath), reverse=False))
     except FileNotFoundError:
