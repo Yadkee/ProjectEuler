@@ -56,7 +56,7 @@
 
 [22	Names scores	](/problems[001-025]/problem022.py)
 
-.
+[23	Non-abundant sums	](/problems[001-025]/problem023.py)
 
 .
 
