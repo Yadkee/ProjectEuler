@@ -6,7 +6,7 @@ with open(join("files", "readme_preset.txt"), "rb") as f:
     preset = f.read()
 with open(join("files", "index.txt")) as f:
     index = f.read().splitlines()
-newLined = ["."] * 25
+newLined = ["?"] * 25
 cells = []
 for i in range(8):
     row = []
@@ -32,6 +32,7 @@ def html_list(l):
 def html_table(l):
     return "<tr>%s</tr>" % "".join("<td>\n\n%s</td>" % i for i in l)
 
+table = "\n".join(html_table(html_list(item) for item in row)
+                  for row in cells if row != cells[-1]).encode()
 with open("README.md", "wb") as f:
-    f.write(preset % ("\n".join(html_table(html_list(item) for item in row)
-                      for row in cells if row != cells[-1])).encode())
+    f.write(preset % table)
