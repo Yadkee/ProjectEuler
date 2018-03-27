@@ -3,9 +3,15 @@
 
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
-1 to 25 | 26 to 50 | 51 to 75 | 76 to 100
---------|----------|----------|----------
+<table>
+  <tr>
+    <th>1 to 25</th>
+    <th>26 to 50</th>
+    <th>51 to 75</th>
+    <th>76 to 100</th>
+  </tr>
 %s
+</table>
 
 ### Disclaimer
 From [projecteuler FAQ](https://projecteuler.net/about "Project Euler FAQ"):
