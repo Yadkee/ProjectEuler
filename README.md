@@ -54,7 +54,7 @@
 
 [21	Amicable numbers	](/problems[001-025]/problem021.py)
 
-.
+[22	Names scores	](/problems[001-025]/problem022.py)
 
 .
 
