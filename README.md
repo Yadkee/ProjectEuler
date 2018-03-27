@@ -94,7 +94,7 @@
 
 .
 
-.
+[42	Coded triangle numbers	](/problems[026-050]/problem042.py)
 
 .
 
