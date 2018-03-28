@@ -59,7 +59,7 @@
 
 [27	Quadratic primes	](/problems[026-050]/problem027.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[28	Number spiral diagonals	](/problems[026-050]/problem028.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
