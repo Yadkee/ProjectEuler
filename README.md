@@ -61,11 +61,11 @@
 
 [28	Number spiral diagonals	](/problems[026-050]/problem028.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[29	Distinct powers	](/problems[026-050]/problem029.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[30	Digit fifth powers	](/problems[026-050]/problem030.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[31	Coin sums	](/problems[026-050]/problem031.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
