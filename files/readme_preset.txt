@@ -3,15 +3,7 @@
 
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
-<table>
-  <tr>
-    <th width=25%%>1 to 25</th>
-    <th width=25%%>26 to 50</th>
-    <th width=25%%>51 to 75</th>
-    <th width=25%%>76 to 100</th>
-  </tr>
-%s
-</table>
+<table>%s</table>
 
 ### Disclaimer
 From [projecteuler FAQ](https://projecteuler.net/about "Project Euler FAQ"):
