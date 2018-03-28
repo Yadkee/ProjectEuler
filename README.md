@@ -57,7 +57,7 @@
 
 [26	Reciprocal cycles	](/problems[026-050]/problem026.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[27	Quadratic primes	](/problems[026-050]/problem027.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
