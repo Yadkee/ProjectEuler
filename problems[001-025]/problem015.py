@@ -1,12 +1,8 @@
 #! python3
 """How many such routes are there through a 20×20 grid?"""
+import sys
+from os.path import dirname
+sys.path.insert(0, dirname(dirname(__file__)))
+from utils import fact
 
-
-def f(n):
-    if n == 1:
-        return 1
-    return n * f(n - 1)
-
-n = 20
-
-print(f(2 * n) // (f(n) ** 2))  # 2n! / n!^2
+print(fact(2 * 20) // (fact(20) ** 2))  # 2n! / n!^2

@@ -1,10 +1,8 @@
 #! python3
 """Find the sum of the digits in the number 100!"""
+import sys
+from os.path import dirname
+sys.path.insert(0, dirname(dirname(__file__)))
+from utils import fact
 
-
-def f(n):
-    if n == 1:
-        return 1
-    return n * f(n - 1)
-
-print(sum(int(i) for i in str(f(100))))
+print(sum(int(i) for i in str(fact(100))))

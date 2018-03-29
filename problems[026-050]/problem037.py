@@ -1,39 +1,10 @@
 #! python3
 """Find the sum of the only eleven primes that are both truncatable from
 left to right and right to left."""
-from itertools import count
-
-
-def sixn(m):
-    """All primes are of the form 6n + 1 or 6n - 1"""
-    for i in count(1):
-        x = 6 * i + 1
-        if x - 2 < m:
-            yield x - 2
-        else:
-            break
-        if x < m:
-            yield x
-        else:
-            break
-
-
-def is_prime(n):
-    if n < 2:
-        return False
-    elif n == 2 or n == 3:
-        return True
-    elif (n + 1) % 6 and (n - 1) % 6:
-        return False
-    try:
-        return cache[n]
-    except KeyError:
-        for i in sixn(n):
-            if not n % i:
-                cache[n] = False
-                return False
-        cache[n] = True
-        return True
+import sys
+from os.path import dirname
+sys.path.insert(0, dirname(dirname(__file__)))
+from utils import is_prime
 
 
 def is_left_truncable(s):

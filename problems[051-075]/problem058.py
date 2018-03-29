@@ -2,33 +2,11 @@
 """What is the side length of the square spiral for which the ratio of primes
 along both diagonals first falls below 10%?"""
 from itertools import count
-from math import sqrt
 from time import time
-
-
-def sixn(m):
-    """All primes are of the form 6n + 1 or 6n - 1"""
-    if 3 >= m:
-        return
-    yield 2
-    if 3 >= m:
-        return
-    yield 3
-    for i in count(1):
-        x = 6 * i + 1
-        if x - 2 >= m:
-            break
-        yield x - 2
-        if x >= m:
-            break
-        yield x
-
-
-def is_prime(n):
-    if n < 2:
-        return False
-    return all(n % i for i in sixn(int(sqrt(n)) + 1))
-
+import sys
+from os.path import dirname
+sys.path.insert(0, dirname(dirname(__file__)))
+from utils import is_prime
 
 t0 = time()
 primes = 0
