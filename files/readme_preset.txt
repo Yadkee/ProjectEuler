@@ -3,6 +3,7 @@
 
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
+[**__Utils__**](/utils.py) (Most used functions)
 <table>%s</table>
 
 ### Disclaimer

@@ -3,6 +3,7 @@
 
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
+[**__Utils__**](/utils.py) (Most used functions)
 <table><tr><td width=33%>
 
 [1	Multiples of 3 and 5	](/problems[001-025]/problem001.py)
