@@ -71,7 +71,7 @@
 
 [33	Digit cancelling fractions	](/problems[026-050]/problem033.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[34	Digit factorials	](/problems[026-050]/problem034.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
