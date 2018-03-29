@@ -73,7 +73,7 @@
 
 [34	Digit factorials	](/problems[026-050]/problem034.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[35	Circular primes	](/problems[026-050]/problem035.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
