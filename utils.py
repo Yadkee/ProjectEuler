@@ -13,10 +13,13 @@ from operator import mul
 
 
 def mult(l):
+    """Same as sum() but using multiplication.
+    mult([5, 4, 3, 2, 1]) = 120"""
     return reduce(mul, l, 1)
 
 
 def fact(n):
+    """Factorial. fact(5) = 5! = 5 * 4! = 5 * 4 * 3 * 2 * 1 = 120"""
     if n == 1:
         return 1
     return n * fact(n - 1)
@@ -41,10 +44,12 @@ def sixn(m):
 
 
 def is_prime(n):
+    """all() returns True if all the values are True"""
     return n > 2 and all(n % i for i in sixn(int(sqrt(n)) + 1))
 
 
 def primes_until(m):
+    """(https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)"""
     sieve = [True] * m
     for i in sixn(m):
         if sieve[i]:
