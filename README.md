@@ -75,7 +75,7 @@
 
 [35	Circular primes	](/problems[026-050]/problem035.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[36	Double-base palindromes	](/problems[026-050]/problem036.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
