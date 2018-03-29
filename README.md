@@ -67,9 +67,9 @@
 
 [31	Coin sums	](/problems[026-050]/problem031.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[32	Pandigital products	](/problems[026-050]/problem032.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[33	Digit cancelling fractions	](/problems[026-050]/problem033.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
