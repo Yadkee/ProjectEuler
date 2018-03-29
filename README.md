@@ -77,7 +77,7 @@
 
 [36	Double-base palindromes	](/problems[026-050]/problem036.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[37	Truncatable primes	](/problems[026-050]/problem037.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
