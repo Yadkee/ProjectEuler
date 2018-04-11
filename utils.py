@@ -7,7 +7,6 @@ sys.path.insert(0, dirname(dirname(__file__)))
 from utils import *
 """
 from math import sqrt
-from itertools import count
 from functools import reduce
 from operator import mul
 
@@ -27,20 +26,10 @@ def fact(n):
 
 def sixn(m):
     """All primes are of the form 6n + 1 or 6n - 1"""
-    if m < 3:
-        return
-    yield 2
-    if m < 4:
-        return
-    yield 3
-    for i in count(1):
-        x = 6 * i + 1
-        if x - 2 >= m:
-            break
-        yield x - 2
-        if x >= m:
-            break
-        yield x
+    yield from (2, 3)
+    for i in range(6, m - 1, 6):
+        yield i - 1
+        yield i + 1
 
 
 def is_prime(n):
@@ -50,6 +39,7 @@ def is_prime(n):
 
 def primes_until(m):
     """(https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)"""
+    assert m > 3, "m must be greater than 3"
     sieve = [True] * m
     for i in sixn(m):
         if sieve[i]:
