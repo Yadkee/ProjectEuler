@@ -34,7 +34,7 @@ def sixn(m):
 
 def is_prime(n):
     """all() returns True if all the values are True"""
-    return n > 2 and all(n % i for i in sixn(int(sqrt(n)) + 1))
+    return n > 1 and (n < 4 or all(n % i for i in sixn(int(sqrt(n)) + 1)))
 
 
 def primes_until(m):
