@@ -9,6 +9,7 @@ from utils import *
 from math import sqrt
 from functools import reduce
 from operator import mul
+from time import time
 
 
 def mult(l):
@@ -26,23 +27,23 @@ def fact(n):
 
 def sixn(m):
     """All primes are of the form 6n + 1 or 6n - 1"""
-    yield from (2, 3)
+    yield from range(2, min(m, 3))
     for i in range(6, m - 1, 6):
-        yield i - 1
-        yield i + 1
+        yield from (i - 1, i + 1)
+    if m > 8 and i + 5 < m:
+        yield i + 5
 
 
 def is_prime(n):
     """all() returns True if all the values are True"""
-    return n > 1 and (n < 4 or all(n % i for i in sixn(int(sqrt(n)) + 1)))
+    return n > 1 and all(n % i for i in sixn(int(sqrt(n)) + 1))
 
 
 def primes_until(m):
     """(https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)"""
-    assert m > 3, "m must be greater than 3"
     sieve = [True] * m
-    for i in sixn(m):
+    for i in sixn(int(sqrt(m)) + 1):
         if sieve[i]:
-            yield i
             for mult in range(i * i, m, i):
                 sieve[mult] = False
+    yield from (i for i in sixn(m) if sieve[i])
