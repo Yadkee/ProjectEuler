@@ -27,10 +27,10 @@ def fact(n):
 
 def sixn(m):
     """All primes are of the form 6n + 1 or 6n - 1"""
-    if 3 >= m:
+    if m < 3:
         return
     yield 2
-    if 3 >= m:
+    if m < 4:
         return
     yield 3
     for i in count(1):
