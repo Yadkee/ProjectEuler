@@ -80,7 +80,7 @@
 
 [37	Truncatable primes	](/problems[026-050]/problem037.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[38	Pandigital multiples	](/problems[026-050]/problem038.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
