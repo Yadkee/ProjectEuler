@@ -84,7 +84,7 @@
 
 [39	Integer right triangles	](/problems[026-050]/problem039.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[40	Champernowne's constant	](/problems[026-050]/problem040.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
