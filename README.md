@@ -86,7 +86,7 @@
 
 [40	Champernowne's constant	](/problems[026-050]/problem040.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[41	Pandigital prime	](/problems[026-050]/problem041.py)
 
 [42	Coded triangle numbers	](/problems[026-050]/problem042.py)
 
