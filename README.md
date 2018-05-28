@@ -82,7 +82,7 @@
 
 [38	Pandigital multiples	](/problems[026-050]/problem038.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[39	Integer right triangles	](/problems[026-050]/problem039.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
