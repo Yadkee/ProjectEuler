@@ -90,7 +90,7 @@
 
 [42	Coded triangle numbers	](/problems[026-050]/problem042.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[43	Sub-string divisibility	](/problems[026-050]/problem043.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
