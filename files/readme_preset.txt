@@ -4,7 +4,7 @@
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
 [**__Utils__**](/utils.py) (Most used functions)
-<table width=100%%>%s</table>
+<table>%s</table>
 
 ### Disclaimer
 From [projecteuler FAQ](https://projecteuler.net/about "Project Euler FAQ"):

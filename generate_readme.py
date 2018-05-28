@@ -8,7 +8,7 @@ with open(join("files", "readme_preset.txt"), "rb") as f:
     preset = f.read()
 with open(join("files", "index.txt")) as f:
     index = f.read().splitlines()
-cells = [[[". " * 30] * 25 for c in range(N)] for r in range(24 // N)]
+cells = [[[". " * 50] * 25 for c in range(N)] for r in range(24 // N)]
 problemFolders = sorted((i for i in listdir(path=".")
                          if i.startswith("problems[")), reverse=False)
 for folder in problemFolders:
@@ -18,7 +18,8 @@ for folder in problemFolders:
     for path in problems:
         n = int(path.strip(".py")[-3:]) - 1
         r, c = (n // 25) // N, (n // 25) % N
-        cells[r][c][n % 25] = "[%s](%s%s)" % (index[n + 1], githubPath, path)
+        name = "%d.- %s" % (n + 1, index[n + 1].split("\t", 1)[1])
+        cells[r][c][n % 25] = "[%s](%s%s)" % (name, githubPath, path)
 
 
 def html_list(l):
