@@ -92,7 +92,7 @@
 
 [43	Sub-string divisibility	](/problems[026-050]/problem043.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[44	Pentagon numbers	](/problems[026-050]/problem044.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
