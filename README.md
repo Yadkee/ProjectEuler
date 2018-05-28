@@ -4,7 +4,7 @@
 [![project euler profile pic](https://projecteuler.net/profile/Yadkee.png "Project Euler User")](https://projecteuler.net/)
 
 [**__Utils__**](/utils.py) (Most used functions)
-<table><tr width=100%><td width=50%>
+<table width=100%><tr width><td width=50%>
 
 [1	Multiples of 3 and 5	](/problems[001-025]/problem001.py)
 
@@ -105,7 +105,7 @@
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 [50	Consecutive prime sum	](/problems[026-050]/problem050.py)</td></tr>
-<tr width=100%><td width=50%>
+<tr width><td width=50%>
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -206,7 +206,7 @@
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </td></tr>
-<tr width=100%><td width=50%>
+<tr width><td width=50%>
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 

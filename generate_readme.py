@@ -27,7 +27,7 @@ def html_list(l):
 
 def html_table(l):
     td = "<td width=%d%s>\n\n%s</td>" % (100 // N, "%%", "%s")
-    return "<tr width=100%%>%s</tr>" % "".join(td % i for i in l)
+    return "<tr width>%s</tr>" % "".join(td % i for i in l)
 
 table = "\n".join(html_table(html_list(item) for item in row)
                   for row in cells if row != cells[-1]).encode()
