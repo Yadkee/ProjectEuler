@@ -96,7 +96,7 @@
 
 [45	Triangular, pentagonal, and hexagonal	](/problems[026-050]/problem045.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[46	Goldbach's other conjecture	](/problems[026-050]/problem046.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
