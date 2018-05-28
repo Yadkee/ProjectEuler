@@ -13,5 +13,6 @@ def solutions(p):
     return sum(1 for i, i2 in squares_range(3, p // 3)
                for j, j2 in squares_range(i, (p - i) // 2 + 1)
                if i2 + j2 == SQUARES[p - i - j])
+
 SQUARES = [i * i for i in range(1001)]
 print(max(range(3, 1001), key=solutions))
