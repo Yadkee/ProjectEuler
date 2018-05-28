@@ -8,7 +8,7 @@ with open(join("files", "readme_preset.txt"), "rb") as f:
     preset = f.read()
 with open(join("files", "index.txt")) as f:
     index = f.read().splitlines()
-cells = [[[". " * 50] * 25 for c in range(N)] for r in range(24 // N)]
+cells = [[[". " * 53] * 25 for c in range(N)] for r in range(24 // N)]
 problemFolders = sorted((i for i in listdir(path=".")
                          if i.startswith("problems[")), reverse=False)
 for folder in problemFolders:
