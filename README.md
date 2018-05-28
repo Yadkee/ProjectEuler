@@ -94,7 +94,7 @@
 
 [44	Pentagon numbers	](/problems[026-050]/problem044.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[45	Triangular, pentagonal, and hexagonal	](/problems[026-050]/problem045.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
