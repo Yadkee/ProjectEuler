@@ -47,3 +47,14 @@ def primes_until(m):
             for mult in range(i * i, m, i):
                 sieve[mult] = False
     yield from (i for i in sixn(m) if sieve[i])
+
+
+def factors(n):
+    fac = []
+    for i in sixn(int(sqrt(n)) + 1):
+        while not n % i:
+            fac.append(i)
+            n //= i
+    if n != 1:
+        fac.append(n)
+    return fac

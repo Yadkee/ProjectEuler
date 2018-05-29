@@ -4,30 +4,27 @@ What is the value of the first triangle
 number to have over five hundred divisors?"""
 from itertools import accumulate
 from itertools import count
+from math import sqrt
 import sys
 from os.path import dirname
 sys.path.insert(0, dirname(dirname(__file__)))
 from utils import sixn
 
 
-def n_divisors(n):
-    divisors = 1
-    for i in sixn(int(n / 2 + 1)):
-        x = 0
-        while n != 1:
-            d, m = divmod(n, i)
-            if m:
-                break
-            else:
-                n = d
-                x += 1
-        else:
-            divisors *= (x + 1)
-            break
-        divisors *= (x + 1)
-    return divisors
+def factors_n(n):
+    fac = 1
+    for i in sixn(int(sqrt(n)) + 1):
+        x = 1
+        while not n % i:
+            x += 1
+            n //= i
+        fac *= x
+    if n != 1:
+        fac *= 2
+    return fac
+
 
 for i in accumulate(count()):
-    if n_divisors(i) > 500:
+    if factors_n(i) > 500:
         print(i)
         break
