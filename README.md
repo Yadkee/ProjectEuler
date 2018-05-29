@@ -98,7 +98,7 @@
 
 [46.- Goldbach's other conjecture	](/problems[026-050]/problem046.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[47.- Distinct primes factors	](/problems[026-050]/problem047.py)
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
