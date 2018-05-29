@@ -102,7 +102,7 @@
 
 [48.- Self powers	](/problems[026-050]/problem048.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[49.- Prime permutations	](/problems[026-050]/problem049.py)
 
 [50.- Consecutive prime sum	](/problems[026-050]/problem050.py)</td></tr>
 <tr width><td width=50%>
