@@ -9,6 +9,8 @@ from utils import *
 from math import sqrt
 from functools import reduce
 from operator import mul
+from collections import deque
+from itertools import cycle
 from time import time
 
 
@@ -47,6 +49,25 @@ def primes_until(m):
             for mult in range(i * i, m, i):
                 sieve[mult] = False
     yield from (i for i in sixn(m) if sieve[i])
+
+
+def prime_generator():
+    prevPrimes = deque([2, 3])
+    yield from prevPrimes
+    x = 5
+    for i in cycle((2, 4)):
+        isPrime = True
+        limit = int(sqrt(x)) + 1
+        for j in prevPrimes:
+            if j > limit:
+                break
+            if not x % j:
+                isPrime = False
+                break
+        if isPrime:
+            prevPrimes.append(x)
+            yield x
+        x += i
 
 
 def factors(n):
