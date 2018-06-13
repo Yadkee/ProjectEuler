@@ -34,6 +34,8 @@ def sixn(m):
         yield from (i - 1, i + 1)
     if m > 8 and i + 5 < m:
         yield i + 5
+    elif 5 < m < 8:
+        yield 5
 
 
 def is_prime(n):
