@@ -4,9 +4,9 @@ In the first one-thousand expansions, how many fractions contain a numerator
 with more digits than denominator?"""
 
 answer = 0
-n, d = 1, 2
+n, d = 3, 2
 for _ in range(1000):
-    if len(str(n + d)) > len(str(d)):
+    if len(str(n)) > len(str(d)):
         answer += 1
-    n, d = d, n + d + d
+    n, d = n + d + d, n + d
 print(answer)
