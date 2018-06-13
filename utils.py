@@ -30,11 +30,14 @@ def fact(n):
 def sixn(m):
     """All primes are of the form 6n + 1 or 6n - 1"""
     yield from range(2, min(m, 4))
-    i = 0
     for i in range(6, m - 1, 6):
         yield from (i - 1, i + 1)
-    if i + 5 < m:
-        yield i + 5
+    try:
+        if i + 5 < m:
+            yield i + 5
+    except NameError:
+        if 5 < m:
+            yield 5
 
 
 def is_prime(n):
