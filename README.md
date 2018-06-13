@@ -119,7 +119,7 @@
 
 [56.- Powerful digit sum	](/problems[051-075]/problem056.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[57.- Square root convergents	](/problems[051-075]/problem057.py)
 
 [58.- Spiral primes	](/problems[051-075]/problem058.py)
 
