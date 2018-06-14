@@ -83,3 +83,12 @@ def factors(n):
     if n != 1:
         fac.append(n)
     return fac
+
+
+def factors_until(m):
+    sieve = [set() for _ in range(m)]
+    for i in sixn(int(sqrt(m)) + 1):
+        if not sieve[i]:
+            for mult in range(i * i, m, i):
+                sieve[mult].add(i)
+    return sieve
