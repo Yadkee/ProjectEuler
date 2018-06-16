@@ -1,4 +1,7 @@
 #! python3
+"""By listing the set of reduced proper fractions for d ≤ 1,000,000 in
+ascending order of size, find the numerator of the fraction immediately
+to the left of 3/7."""
 from math import ceil
 from itertools import count
 
