@@ -129,7 +129,7 @@
 
 [61.- Cyclical figurate numbers	](/problems[051-075]/problem061.py)
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[62.- Cubic permutations	](/problems[051-075]/problem062.py)
 
 [63.- Powerful digit counts	](/problems[051-075]/problem063.py)
 
